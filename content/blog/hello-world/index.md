@@ -8,6 +8,4 @@ Welcome to my blog! It's a little empty in here right now - but don't you worry,
 
 In the meantime, feel free to check out my frequently updated [Instagram feed](https://www.instagram.com/klovey92/) to see what I'm all about.
 
----
-
 See you around!

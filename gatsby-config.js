@@ -1,10 +1,10 @@
 module.exports = {
-  pathPrefix: "/kelsie-blog",
+  // pathPrefix: "/kelsie-blog",
   siteMetadata: {
     title: `Kelsie Earnest`,
     author: `Kelsie Earnest`,
     description: `Felt cute, might post later`,
-    siteUrl: `https://kearnest.com`,
+    siteUrl: `https://blog.lovekelsie.com`,
     social: {
       twitter: `klovey92`,
       instagram: `klovey92`,
