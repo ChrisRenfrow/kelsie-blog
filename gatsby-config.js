@@ -6,8 +6,8 @@ module.exports = {
     description: `Felt cute, might post later`,
     siteUrl: `https://blog.lovekelsie.com`,
     social: {
-      twitter: `klovey92`,
-      instagram: `klovey92`,
+      // twitter: `klovey92`,
+      instagram: `love.kelsie.blog`,
     },
   },
   plugins: [
@@ -80,7 +80,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Kelsie Earnest's Blog`,
-        short_name: `LoveKelsieBlog`,
+        short_name: `blog.love.kelsie`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,

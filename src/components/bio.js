@@ -46,12 +46,12 @@ function Bio() {
               <a href={`https://instagram.com/${social.instagram}`}>
                 Instagram
               </a>
-              {` `}
-              or
+              {`.`}
+              {/* or
               {` `}
               <a href={`https://twitter.com/${social.twitter}`}>
                 Twitter
-              </a>
+              </a> */}
             </p>
           </div>
         )
@@ -62,7 +62,7 @@ function Bio() {
 
 const bioQuery = graphql`
   query BioQuery {
-    avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
+    avatar: file(absolutePath: { regex: "/profile-pic.[jpeg|jpg|png]/" }) {
       childImageSharp {
         fixed(width: 200, height: 200) {
           ...GatsbyImageSharpFixed
@@ -73,7 +73,6 @@ const bioQuery = graphql`
       siteMetadata {
         author
         social {
-          twitter
           instagram
         }
       }
